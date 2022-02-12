@@ -1,18 +1,12 @@
+// client.on('messageCreate', (msg) => {
 
-
-client.on('ready', () => {
-    console.log('The bot is ready!')
-})
-
-client.on('messageCreate', (msg) => {
-
-    if (msg.author.id === '252394074718470146' && msg.content === 'лох') {
-        msg.reply({
-            content: `${msg.author} а может быть ты лох?`,
-        }), 
-        msg.react('🤔')
-    }
-})
+//     if (msg.author.id === '252394074718470146' && msg.content === 'лох') {
+//         msg.reply({
+//             content: `${msg.author} а может быть ты лох?`,
+//         }), 
+//         msg.react('🤔')
+//     }
+// })
 
 // client.on('messageCreate', (msg) => {
 
@@ -24,8 +18,8 @@ client.on('messageCreate', (msg) => {
 //     }
 // })
 
-client.on('message', (msg)=>{
-    if(msg.content === 'а') {
-        msg.react('🤔')
-    }
-})
+// client.on('message', (msg)=>{
+//     if(msg.content === 'а') {
+//         msg.react('🤔')
+//     }
+// })
